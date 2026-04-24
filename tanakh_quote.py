@@ -20,7 +20,7 @@ def display():
     today = datetime.date.today().strftime("%A, %B %d")
  
     print()
-    print(f"  Tanakh — {today}")
+    print(f"  {today}")
     print()
     print(f"  {textwrap.fill(text, width=60)}")
     print()
