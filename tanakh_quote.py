@@ -7,7 +7,7 @@ Quote rotates daily. New one each morning.
  
 import datetime
 import textwrap
-from quotes import quote 
+from quotes import QUOTES 
  
 def get_quote_of_the_day() -> tuple[str, str]:
     day_of_year = datetime.date.today().timetuple().tm_yday
